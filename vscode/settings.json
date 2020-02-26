@@ -1,0 +1,57 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "breadcrumbs.enabled": true,
+    "editor.fontFamily": "Cascadia Code, Operator Mono, Dank Mono, Menlo",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "One Dark Pro",
+    "vim.leader": ",",
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [">"],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": ["<"],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", ","],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": ["<c-e>"],
+            "after": ["3", "<c-e>"]
+        },
+        {
+            "before": ["<c-y>"],
+            "after": ["3", "<c-y>"]
+        },
+        {
+            "before": [":"],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": ["<leader>", "t"],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        }
+    ]
+}
