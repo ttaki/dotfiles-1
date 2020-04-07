@@ -1,9 +1,9 @@
 # gitconfig
 [user]
-    name = Nick Nisi
-    email = nick@nisi.org
+	name = ttaki
+	email = opqrshun@gmail.com
 [github]
-    user = nicknisi
+	user = ttaki
 [init]
     templatedir = ~/.dotfiles/git/templates
 [alias]
@@ -168,3 +168,8 @@
 [pager]
     diff = "diff-so-fancy | less --tabs=4 -RFX"
     show = "diff-so-fancy | less --tabs=4 -RFX"
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

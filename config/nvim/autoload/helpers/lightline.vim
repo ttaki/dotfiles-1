@@ -18,10 +18,6 @@ function! helpers#lightline#fileFormat()
     return winwidth(0) > 70 ? format . ' ' . WebDevIconsGetFileFormatSymbol() . ' ' : ''
 endfunction
 
-function! helpers#lightline#fileType()
-    return WebDevIconsGetFileTypeSymbol()
-endfunction
-
 function! helpers#lightline#gitBranch()
     return "\uE725" . (exists('*fugitive#head') ? ' ' . fugitive#head() : '')
 endfunction

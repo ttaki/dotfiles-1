@@ -210,3 +210,7 @@ alias ta='tmux attach'
 alias tls='tmux ls'
 alias tat='tmux attach -t'
 alias tns='tmux new-session -s'
+# fnm
+eval "$(fnm env --multi)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

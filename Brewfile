@@ -52,6 +52,10 @@ brew "zsh"
 # Applications
 cask "kitty"
 cask "imageoptim"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "keepassxc"
+cask "github"
 
 # Fonts
 cask "font-fira-code"
