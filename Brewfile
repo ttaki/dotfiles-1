@@ -48,6 +48,8 @@ brew "yarn"
 brew "youtube-dl"
 brew "z"
 brew "zsh"
+brew "lsd"
+brew "fzf"
 
 # Applications
 cask "kitty"
@@ -56,8 +58,11 @@ cask "visual-studio-code"
 cask "google-chrome"
 cask "keepassxc"
 cask "github"
+cask "scroll-reverser"
+cask "cheatsheet"
 
 # Fonts
 cask "font-fira-code"
 cask "font-jetbrains-mono"
 cask "font-cascadia-mono"
+
