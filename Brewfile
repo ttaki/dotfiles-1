@@ -65,4 +65,4 @@ cask "cheatsheet"
 cask "font-fira-code"
 cask "font-jetbrains-mono"
 cask "font-cascadia-mono"
-
+cask "font-hack-nerd-font"
