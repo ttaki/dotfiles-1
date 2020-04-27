@@ -7,6 +7,9 @@ tap "schniz/tap"
 
 # packages
 brew "ack"
+brew "ansible"
+brew "terraform"
+brew "ranger"
 brew "bat"
 brew "cloc"
 brew "diff-so-fancy"
@@ -60,6 +63,8 @@ cask "keepassxc"
 cask "github"
 cask "scroll-reverser"
 cask "cheatsheet"
+cask "libreoffice"
+cask "slack"
 
 # Fonts
 cask "font-fira-code"
