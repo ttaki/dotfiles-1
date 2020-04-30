@@ -31,6 +31,8 @@ alias vi='nvim'
 alias vim='nvim'
 alias cat='bat'
 alias lzd='lazydocker'
+alias python='python3'
+alias pip='pip3'
 # Show OS info when opening a new terminal
 neofetch
 
