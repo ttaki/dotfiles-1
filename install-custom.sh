@@ -16,5 +16,14 @@ function setupTmux() {
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 }
 
+function setupNode() {
+    mkdir -p "$HOME/.node_modules"
+    yarn global add n
+    yarn global add @openapitools/openapi-generator-cli
+    yarn global add eslint-cli
+    yarn global add js-beautify
+}
+
 setUPZsh
 installSpaceVim
+setupNode

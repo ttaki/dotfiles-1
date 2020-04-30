@@ -30,8 +30,10 @@ alias h='htop'
 alias vi='nvim'
 alias vim='nvim'
 alias cat='bat'
+alias lzd='lazydocker'
 # Show OS info when opening a new terminal
 neofetch
 
 # $(brew --prefix)/opt/fzf/install
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source /usr/local/etc/profile.d/z.sh
