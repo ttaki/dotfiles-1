@@ -14,9 +14,11 @@ zstyle :prompt:pure:git:stash show yes
 prompt pure
 
 
+# $(brew --prefix)/opt/fzf/install
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source /usr/local/etc/profile.d/z.sh
+
 # Aliases
-alias mirrorUpdate='sudo reflector --latest 250 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
-alias emacs='emacs -nw'
 alias ls='lsd'
 alias l='ls -l'
 alias la='ls -a'
@@ -24,7 +26,7 @@ alias lla='ls -la'
 alias lt='ls --tree'
 alias ip='ip -c'
 alias rm='rm -i'
-alias x='ranger'
+alias f='ranger'
 alias c='cmus'
 alias h='htop'
 alias vi='nvim'
@@ -36,6 +38,3 @@ alias pip='pip3'
 # Show OS info when opening a new terminal
 neofetch
 
-# $(brew --prefix)/opt/fzf/install
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source /usr/local/etc/profile.d/z.sh
