@@ -61,7 +61,7 @@ brew "n"
 
 # Applications
 cask "docker" #gui
-cask "kitty"
+cask "hyper"
 cask "imageoptim"
 cask "visual-studio-code"
 cask "google-chrome"
