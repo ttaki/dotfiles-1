@@ -18,6 +18,7 @@ brew "docker-compose"
 brew "entr" #Event Notify Test Runner
 brew "fd"
 brew "fzf"
+brew "fdupes"
 brew "git"
 brew "gnupg"
 brew "grep"
@@ -60,6 +61,9 @@ brew "node"
 brew "composer"
 brew "mysql"
 brew "n"
+
+# brew "pygobject3"
+# brew "gtk+3"
 
 # Applications
 cask "docker" #gui
