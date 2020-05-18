@@ -15,6 +15,7 @@ brew "cloc"
 brew "diff-so-fancy"
 brew "docker"
 brew "docker-compose"
+brew "exa"
 brew "entr" #Event Notify Test Runner
 brew "fd"
 brew "fzf"
@@ -47,9 +48,7 @@ brew "vim"
 brew "wdiff"
 brew "wget"
 brew "yarn"
-brew "z"
 brew "zsh"
-brew "lsd"
 brew "fzf"
 
 # Launguage
